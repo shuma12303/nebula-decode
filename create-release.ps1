@@ -1,12 +1,12 @@
 ﻿# =====================================================================
 # create-release.ps1 — 通过 GitHub API 发布 Release 并上传 Pages 部署包
 # 用法:
-#   .\create-release.ps1 -UserName smzxtv -Token <你的PAT> [-Version v1.6]
+#   .\create-release.ps1 -UserName shuma12303 -Token <你的PAT> [-Version v2.1]
 # =====================================================================
 param(
     [Parameter(Mandatory = $true)][string]$UserName,
     [Parameter(Mandatory = $true)][string]$Token,
-    [string]$Version = 'v1.6',
+    [string]$Version = 'v2.1',
     [string]$RepoName = 'nebula-decode'
 )
 
