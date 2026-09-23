@@ -1,5 +1,4 @@
-﻿node_modules/
+node_modules/
 .wrangler/
 *.zip
 Pages-*.zip
-.DS_Store
