@@ -1,0 +1,17 @@
+name = "nebula-decode"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "public"
+
+# KV 命名空间：用于保存面板配置与优选 IP
+# 创建命令：npx wrangler kv namespace create KV
+# 然后把下面 id 替换为命令输出的 namespace_id
+[[kv_namespaces]]
+binding = "KV"
+id = "请替换为你的KV命名空间ID"
+
+# 可选：环境变量（不配置则使用默认值，面板修改后优先级最高）
+[vars]
+# UUID = "24b3c8b0-0b1e-4f5e-9c2a-7f6d5a4b3c2d"
+# CUSTOM_PATH = ""
+# PROXYIP = ""
+# TROJAN_PASSWORD = ""
